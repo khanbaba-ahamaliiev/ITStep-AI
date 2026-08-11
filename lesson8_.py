@@ -39,13 +39,13 @@ from ultralytics import YOLO
 
 
 # обучение модели
-model = ultralytics.YOLO("yolo11s.pt")
-
-model.train(
-    data="data/yolo-dataset/dataset.yaml",
-    device="cpu",
-    batch=6, # количество изображений которых модель видит за 1 раз
-)
+# model = ultralytics.YOLO("yolo11s.pt")
+#
+# model.train(
+#     data="data/yolo-dataset/dataset.yaml",
+#     device="cpu",
+#     batch=6, # количество изображений которых модель видит за 1 раз
+# )
 
 
 
